@@ -15,8 +15,8 @@ class TrainConfig:
     """
 
     # Model and data
-    model_name: str = "distilbert-base-uncased"
-    dataset_name: str = "imdb"
+    model_name: str = "distilbert/distilbert-base-uncased"
+    dataset_name: str = "stanfordnlp/imdb"
     text_column: str = "text"
     label_column: str = "label"
     num_labels: int = 2
