@@ -6,17 +6,15 @@
 
 ## Results
 
-<!-- Replace with your numbers from outputs/.../results.json after training -->
-
 | Model | Accuracy | F1 (macro) |
 | --- | --- | --- |
-| DistilBERT, no fine-tuning (baseline) | _fill in_ | _fill in_ |
-| DistilBERT + LoRA (TinyTune) | _fill in_ | _fill in_ |
+| DistilBERT, no fine-tuning (baseline) | 0.408 | 0.406 |
+| DistilBERT + LoRA (TinyTune) | **0.869** | **0.869** |
 
-IMDb, 4,000 training reviews, 1,000 held-out test reviews, 2 epochs.
+IMDb, 4,000 training reviews, 1,000 held-out test reviews, 2 epochs on one free Colab T4 GPU. Trainable parameters: 739,586 of 67,694,596 (1.09%).
 
-- Model on the Hub: _add link_
-- Live demo (Gradio Space): _add link_
+- Model on the Hub: [techdeepml/tinytune-distilbert-imdb](https://huggingface.co/techdeepml/tinytune-distilbert-imdb)
+- Live demo (Gradio Space): _coming soon_
 
 ## How it works
 
